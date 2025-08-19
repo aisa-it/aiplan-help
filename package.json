@@ -1,0 +1,14 @@
+{
+  "name": "aiplan-help",
+  "version": "1.0.0",
+  "description": "AIPlan help documents",
+  "main": "index.js",
+  "repository": "git@github.com:aisa-it/aiplan-help.git",
+  "author": "Egor Sheff <egor.shevtsov@aisa.ru>",
+  "license": "MPL-2.0",
+  "private": false,
+  "dependencies": {
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.14.0"
+  }
+}
