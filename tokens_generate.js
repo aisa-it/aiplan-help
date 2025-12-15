@@ -1,12 +1,13 @@
 const lunr = require("lunr");
 require("lunr-languages/lunr.stemmer.support")(lunr);
+require("lunr-languages/lunr.multi")(lunr);
 require("lunr-languages/lunr.ru")(lunr);
 
 const fs = require("fs");
 const path = require("path");
 
 const idx = lunr(function () {
-  this.use(lunr.ru);
+  this.use(lunr.multiLanguage("ru", "en"));
   this.ref("path");
   this.field("title", { boost: 2 });
   this.field("body", { boost: 1 });
