@@ -4,12 +4,12 @@
 
 Отображаются спринты в свёрнутом блоке над списком проектов.
 
-![sprint_1](imgs/sprint_1.jpg)
+![sprint_1](/imgs/sprint_1.jpg)
 
 Для **создания спринта** необходимо: 
 1. Нажать на значок плюсик справа от названия блока.
 
-![sprint_2](imgs/sprint_2.jpg)
+![sprint_2](/imgs/sprint_2.jpg)
 
 2. Указать:
 <ul><li>название спринта;</li>
@@ -18,4 +18,4 @@
 <li>цель спринта;</li>
 <li>задачи.</li></ul>
 
-![sprint_3](imgs/sprint_3.jpg)
+![sprint_3](/imgs/sprint_3.jpg)
